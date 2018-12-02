@@ -1,0 +1,220 @@
+/*
+* @Author: djh
+* @Date:   2018-09-16 22:47:59
+* @Last Modified by:   djh
+* @Last Modified time: 2018-09-16 23:46:30
+*/
+
+/* 登录注册页面开始 */
+body{
+	background: pink;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+.login_box{
+ width:463px;
+ height:523px;
+ background:rgba(255,255,255,0.3);
+ padding:9px;
+ position:absolute;
+ top:60px;
+ left:822px;
+ box-sizing:border-box;
+ 
+}
+.login_inbox{
+ width:445px;
+ height:505px;
+ background:#fff;
+ overflow: hidden;
+
+}
+.login_top{
+ width:325px;
+ height:55px;
+ /* background:red; */
+ margin:20px auto 0;
+ border-bottom: 1px solid #e2e2e2;
+ 
+}
+.login_top_list{
+  width:205px;
+  height:55px;
+ /*  background:pink; */
+  margin:0 auto;
+  display:flex;
+ justify-content:space-between;
+  
+}
+.login_top_list li{
+ width:102px;
+ height:55px;
+/*  background:yellow; */
+ text-align:center;
+ line-height:55px;
+ font-size: 14px;
+}
+.login_top_list li a{
+ text-decoration:none;
+ color:#777;
+
+ }
+.login_top_list li a:hover{
+ color:#ff2f2f;
+}
+#login{
+  color: #ff2f2f;
+  font-size: 24px;
+  font-weight: bold;
+}
+.login_top_list li:first-child{
+  border-bottom: 3px solid  #ff2f2f;
+
+}
+.login_center{
+  width: 445px;
+ /*  height: 296px; */
+ /*  background: pink; */
+  margin-top: 18px;
+  overflow: hidden;
+  
+}
+.input_pnone{
+
+	width: 325px;
+	height: 50px;
+	border: 1px solid #e2e2e2;
+	margin: 15px auto 0;
+
+}
+.pwd{
+
+	outline: none;
+	border: 0;
+	width: 325px;
+	height: 50px;
+	padding: 0 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+
+}
+.check{
+	width: 70px;
+	height: 38px;
+	font-size: 18px;
+	margin-top: 4px;
+	outline: none;
+	border: 1px solid #e2e2e2;
+}
+#input_check{
+	border: 0;
+	/* background: red; */
+	display: flex;
+}
+#input_check img{
+    width:70px;
+    height: 40px;
+	 margin-top: 4px;
+	 margin-left: 5px;
+}
+#input_check a{
+	width: 98px;
+	height: 44px;
+	font-size: 14px;
+	color: #1f16d1;
+	margin-left: 9px;
+	text-decoration: none;
+	line-height: 44px;
+	text-align: center;
+	display: block;
+	 margin-top: 4px;
+
+}
+#input_check a:hover{
+	color: #ff2f2f;
+}
+.moment_register{
+	width: 320px;
+	height: 40px;
+	background: #ff2f2f;
+	border: 1px solid #ff2f2f;
+	display: block;
+	margin: 50px auto 0;
+	font-size: 18px;
+	color: #fefefe;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+
+}
+.phone_login{
+	display: block;
+	font-size: 14px;
+	color: #ff2f2f;
+	text-decoration:none;
+	margin-left: 255px;
+
+}
+.login_bottom{
+	display: flex;
+	width: 224px;
+	/* background: red; */
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.login_bottom li {
+	color: #dcdcdc;
+	padding: 0 15px;
+	box-sizing: border-box;
+
+}
+
+.login_bottom a{
+	text-decoration: none;
+	color: #666;
+	font-size: 14px;
+	
+}
+#find_pwd{
+	color: #ff2f2f;
+}
+.login_center_phone{
+ background:#fff;
+}
+.moment_message{
+ background:#ff2f2f;
+ /* width:325px; */
+ height:31px;
+ border:1px solid #ff2f2f;
+ font-size:14px;
+ color:#fefefe;
+ padding:5px 15px;
+ box-sizing:border-box;
+ margin:17px 0 0 58px;
+ cursor:pointer;
+}
+#moment_login{
+ background:#E2E2E2;
+ color:#fefefe;
+ border:1px solid #CCCCCC;
+ cursor:pointer;
+}
+#login_center_all{
+ height:388px;
+ position:absolute;
+ top:76px;
+ left:9px;
+ background:red;
+ /* display:none; */
+ 
+}
+/* .phone_login:target #login_center_all{
+  
+  display:block;
+} */
+

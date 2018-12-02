@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<div class="login_center login_center_phone" id="login_center_all">
+      <form action="/user/login" method="post">
+        <a href="" class="phone_login">使用账户密码登录</a>
+         <div class="input_pnone">
+           <input type="text" placeholder="请输入11位手机号" class="pwd" name="phone">
+         </div>
+          <!-- <div class="input_pnone" >
+            <input type="text" placeholder="请设置登录密码" class="pwd" name="pwd">
+          </div> -->
+          <div class="input_pnone" id="input_check">
+            <input type="text" class="check">
+            <img src="img/index.png" alt="">
+            <a href="">看不清，换一张</a>
+          </div>
+		  <input type="button" class="moment_message" value="获取短信验证码">
+        <input type="submit" class="moment_register" value="登录" id="moment_login">
+        
+      </form>
+      
+            
+    </div>
+</body>
+</html>

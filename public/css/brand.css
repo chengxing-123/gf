@@ -1,0 +1,348 @@
+/*
+* @Author: web
+* @Date:   2018-11-02 12:46:58
+* @Last Modified by:   djh
+* @Last Modified time: 2018-11-04 21:32:16
+*/
+/* 品牌保障开始 */
+.brand{
+	height: 325px;
+	background: url('../img/brand/p01.png');
+	overflow: hidden;
+}
+.brand h3{
+	font-size: 77px;
+	font-weight: 700;
+	color: #fefefe;
+	text-align: center;
+	margin-top: 74px
+}
+.brand>img{
+	margin: 50px 0 0 798px;
+}
+.brand_list{
+	height: 195px;
+	background: url('../img/brand/p04.jpg');
+
+}
+.brand_list>ul{
+	width: 1200px;
+	margin: 30px auto 0;
+}
+.brand_list>ul>li{
+	width: 160px;
+	margin: 0 5px;
+	float: left;
+
+}
+.brand_list>ul>li>a{
+	width: 160px;
+    height: 100px;
+    padding-top: 45px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.brand_list>ul>li>a>i{
+	display: inline-block;
+	width: 48px;
+	height: 40px;
+
+}
+.brand_list>ul>li>a>p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+.brand_list>ul>li>a:hover p{
+	color: #ff2f2f;
+}
+.brand_list>ul>li>a>.brand_img1{
+	background: url('../img/brand/why.png') no-repeat -288px 0;
+}
+.brand_list>ul>li>a:hover .brand_img1{
+	background: url('../img/brand/why.png') no-repeat -288px -40px;
+}
+.brand_list>ul>li>a> .brand_img2{
+	background: url('../img/brand/why.png') no-repeat -192px 0;
+}
+.brand_list>ul>li>a:hover .brand_img2{
+	background: url('../img/brand/why.png') no-repeat -192px -40px;
+}
+.brand_list>ul>li>a>.brand_img3{
+	background: url('../img/brand/why.png') no-repeat -240px 0;
+}
+.brand_list>ul>li>a:hover .brand_img3{
+	background: url('../img/brand/why.png') no-repeat -240px -40px;
+}
+.brand_list>ul>li>a>.brand_img4{
+	background: url('../img/brand/why.png') no-repeat -144px 0;
+}
+.brand_list>ul>li>a:hover .brand_img4{
+	background: url('../img/brand/why.png') no-repeat -144px -40px;
+}
+.brand_list>ul>li>a>.brand_img5{
+	background: url('../img/brand/why.png') no-repeat 0 0;
+}
+.brand_list>ul>li>a:hover .brand_img5{
+	background: url('../img/brand/why.png') no-repeat 0 -40px;
+}
+.brand_list>ul>li>a>.brand_img6{
+	background: url('../img/brand/why.png') no-repeat -48px 0;
+}
+.brand_list>ul>li>a:hover .brand_img6{
+	background: url('../img/brand/why.png') no-repeat -48px -40px;
+}
+.brand_list>ul>li>a>.brand_img7{
+	background: url('../img/brand/why.png') no-repeat -96px 0;
+}
+.brand_list>ul>li>a:hover .brand_img7{
+	background: url('../img/brand/why.png') no-repeat -96px -40px;
+}
+.brand_first{
+	height: 669px;
+	background: url('../img/brand/p02.png');
+	position: relative;
+	background-size: cover;
+}
+.brand_first>a{
+	display: inline-block;
+	margin: 110px 0 0 80px;
+
+}
+.brand_first>h3{
+	font-size: 48px;
+	color: #222;
+	position: absolute;
+	top: 190px;
+	left: 762px;
+	
+}
+.brand_first>p{
+	width: 490px;
+	font-size: 18px;
+	color: #777;
+	line-height: 36px;
+	position: absolute;
+	top: 290px;
+	left: 762px;
+	
+}
+.brand_truth{
+	height: 217px;
+	background: url('../img/brand/p04.jpg');
+	text-align: center;
+	position: relative;
+
+}
+.brand_truth>h3{
+	font-size: 36px;
+	color: #222;
+	position: absolute;
+	left: 553px;
+	top: 45px;
+
+}
+.brand_truth>p{
+	font-size: 18px;
+	width: 900px;
+	line-height: 35px;
+	color: #222;
+	position: absolute;
+	top: 120px;
+	left: 258px;
+}
+.brand_user{
+	width: 1200px;
+	height: auto;
+	margin: 30px auto 0;
+	
+}
+.brand_user>.brand_title{
+	font-size: 18px;
+	color: #333;
+	padding: 0 10px;
+	background: #f4f4f4;
+	height: 50px;
+	line-height: 50px;
+
+}
+.brand_user>ul>li{
+	padding: 20px 30px;
+	border-bottom: 1px solid #f4f4f4;
+	box-sizing: border-box;
+	display: flex;
+	
+}
+.brand_user>ul>li>.li_right{
+	margin-left: 42px;
+}
+.brand_int{
+	font-size: 18px;
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+.brand_int:hover{
+	color: #ff2f2f;
+}
+.brand_truth1{
+	margin-top: 60px;
+	height: ;
+}
+.brand_first1{
+	margin-top: 60px;
+	background: #fff;
+	height: 597px;
+}
+.clear_fix{
+	width: 1300px;
+	height: 313px;
+	margin: 0 auto;
+	display: flex;
+
+}
+.clear_img{
+	background-color: #f9fafe;
+    height: 244px;
+    text-align: center;
+    width: 278px;
+}
+.clear_img>img{
+ 
+   width: 244px;
+   height: 244px
+}
+.clear_fix>li{
+	margin-right: 38px;
+}
+.clear_fix>li>a{
+	text-decoration: none;
+	color: #333;
+	border-radius: 5px;
+	width: 278px;
+    height: 313px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 0 0 15px #f4f4f4;
+}
+.clear_fix>li>a>h3{
+  font-size: 14px;
+  line-height: 25px;
+  margin: 15px 25px 0 25px;
+}
+.clear_fix>li>a>p{
+	margin: 0 25px;
+    text-align: left;
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333;
+}
+.photo{
+	width: 1300px;
+	height: auto;
+	margin: 0 auto;
+}
+.order_bar{
+	height: 25px;
+    line-height: 25px;
+    margin: 0 20px;
+    font-size: 18px;
+    color: #333;
+    padding-left: 22px;
+    border-left: 3px solid #ff2f2f;
+}
+.photo>ul{
+	width: 1242px;
+	height: auto;
+	margin: 0 20px 30px;
+	
+	
+
+
+}
+.photo>ul>li{
+	width: 167px;
+	height: 230px;
+	margin-right: 40px;
+	margin-top: 30px;
+	float: left;
+
+}
+.photo>ul>li>a{
+	text-decoration: none;
+	color: #333;
+
+}
+.photo>ul>li>a>.order_img{
+	width: 165px;
+	height: 175px;
+	border: 1px solid #c9c9c9;
+	margin-bottom: 5px;
+}
+.photo>ul>li>a>.order_img>img{
+	width: 165px;
+	height: 175px;
+	transition: 2s;
+
+}
+.photo>ul>li>a>p{
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	overflow: hidden;
+	
+}
+.photo>ul>li>a:hover p{
+	color: #ff2f2f;
+}
+.photo>ul>li>a:hover img{
+	transform: scale(1.1);
+
+}
+.check{
+	width: 1200px;
+	height: auto;
+	
+	margin: 0 auto;
+	overflow: hidden;
+}
+.check>h3{
+	font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 50px;
+    text-align: center;
+}
+.check>p{
+	font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    text-align: center;
+}
+.check>a{
+	width: 1200px;
+	height: 220px;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+#p_style{
+	top: 56px;
+}
+#brand_style{
+	background: #fff;
+	
+}
+#brand_style>p{
+	color: #777;
+}
+.check_pic{
+	width: 1200px;
+	height: 510px;
+	margin: 20px auto 86px;
+
+}
+/* 品牌保障结束 */

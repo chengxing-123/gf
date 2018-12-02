@@ -1,0 +1,169 @@
+*{
+ margin:0;
+ padding:0;
+ list-style:none;
+}
+
+/* 图片开始 */
+
+.full_login{
+ width:100%;
+ height:658px;
+ background:url("../img/index/login_bg.jpg");
+ margin:0 auto;
+ background-size: cover;
+ position: relative;
+}
+.pic{
+ width:1069px;
+ height:116px;
+ margin:0 auto;
+}
+/* 图片结束 */
+
+/* 声明开始 */
+.note{
+ width: 1200px;
+ height:24px;
+ font-size:12px;
+ color:#999;
+ text-align:center;
+ line-height:24px;
+ 
+ margin: 0 auto 25px;
+ 
+
+}
+/* 声明结束 */
+/* 登录注册页面开始 */
+.login_box1{
+ width:463px;
+ height:523px;
+ background:rgba(255,255,255,0.3);
+ padding:9px;
+ position:absolute;
+ top:60px;
+ left:822px;
+ box-sizing:border-box;
+}
+.login_inbox{
+ width:445px;
+ height:505px;
+ background:#fff;
+ overflow: hidden;
+
+}
+.login_top{
+ width:325px;
+ height:55px;
+ margin:20px auto 0;
+ border-bottom: 1px solid #e2e2e2;
+ 
+}
+.login_top_list1{
+  width:205px;
+  height:55px;
+  margin:0 auto;
+  display:flex;
+ justify-content:space-between;
+  
+}
+.login_top_list1 li{
+ width:102px;
+ height:55px;
+ text-align:center;
+ line-height:55px;
+ font-size: 14px;
+}
+.login_top_list1 li a{
+ text-decoration:none;
+ color:#777;
+
+ }
+.login_top_list1 li a:hover{
+ color:#ff2f2f;
+}
+#login_register{
+  color: #ff2f2f;
+  font-size: 24px;
+  font-weight: bold;
+}
+.login_top_list1 li:last-child{
+  border-bottom: 3px solid  #ff2f2f;
+
+}
+.login_center{
+  width: 445px;
+  margin-top: 18px;
+  overflow: hidden;
+}
+.input_pnone{
+
+	width: 325px;
+	height: 50px;
+	border: 1px solid #e2e2e2;
+	margin: 15px auto 0;
+
+}
+.pwd{
+
+	outline: none;
+	border: 0;
+	width: 325px;
+	height: 50px;
+	padding: 0 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+
+}
+.check{
+	width: 70px;
+	height: 38px;
+	font-size: 18px;
+	margin-top: 4px;
+	outline: none;
+	border: 1px solid #e2e2e2;
+}
+#input_check{
+	border: 0;
+	display: flex;
+}
+#input_check img{
+    width:70px;
+    height: 40px;
+	 margin-top: 4px;
+	 margin-left: 5px;
+}
+#input_check a{
+	width: 98px;
+	height: 44px;
+	font-size: 14px;
+	color: #1f16d1;
+	margin-left: 9px;
+	text-decoration: none;
+	line-height: 44px;
+	text-align: center;
+	display: block;
+	 margin-top: 4px;
+
+}
+#input_check a:hover{
+	color: #ff2f2f;
+}
+.moment_register{
+	width: 320px;
+	height: 40px;
+	background: #ff2f2f;
+	border: 1px solid #ff2f2f;
+	display: block;
+	margin: 50px auto 0;
+	font-size: 18px;
+	color: #fefefe;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	
+
+}
+/* 登录注册页面结束 */

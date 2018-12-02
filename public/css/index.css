@@ -1,0 +1,939 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+
+}
+/* 轮播图开始 */
+.full_slider{
+    width:100%;
+    height:467px;
+    background:gray;
+    position: relative;
+   
+}
+/* 轮播图结束 */
+/* 优势开始 */
+.youshi{
+    width:100%;
+    height:103px;
+    border-bottom:1px solid #e2e2e2;
+    /* background:pink; */
+}
+.wrap{
+    width:1200px;
+    height:100%;
+    margin:0 auto;
+    /* background:yellow; */
+    display: flex;
+    
+}
+.icon_bounce{
+    width:290px;
+    height:42px;
+    /* background:red; */
+    margin-top: 30px;
+}
+
+.icon_a{
+    display: block;
+    width: 100%;
+    height: 100%;
+   /*  background: blue; */
+    text-decoration: none;
+    display: flex;
+}
+.youshi_img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.youshi_img1{
+    background: url('../img/icon.png') no-repeat 0 -84px  ;
+}
+.youshi_img2{
+    background: url('../img/icon.png') no-repeat  -40px -84px ;
+}
+.youshi_img3{
+    background: url('../img/icon.png') no-repeat -80px -84px ;
+}
+.youshi_img4{
+    background: url('../img/icon.png') no-repeat -120px -84px ;
+}
+
+.youshi_text>p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+.youshi_text>span{
+    font-size: 12px;
+    color: #777;
+}
+.icon_a>.youshi_text:hover p{
+    color:#ff2f2f;
+}
+.icon_a:hover .youshi_img {
+    transform: rotate(5deg);
+    transition: 0.01s;
+}
+.flash_scale{
+    width: 1200px;
+    height: 298px;
+   /*  background: pink; */
+    margin: 60px auto 0;
+    display: flex;
+
+   
+
+}
+.flash_scale_right{
+    width: 915px;
+    display: flex;
+    justify-content: space-between; 
+}
+.flash_scale_right>li{
+    width: 214px;
+    height: 298px;
+   /*  background: yellow; */
+}
+.flash_scale_left{
+    width: 278px;
+    height: 298px;
+    background: red;
+    margin-right: 19px;
+    background: url('../img/index/xsqg.png')
+}
+.flash_scale_left>.time{
+    width: 210px;
+    height: 52px;
+    /* background: #d33; */
+    display: flex;
+    margin: 125px 0 0 36px;
+    justify-content: space-between;
+    
+}
+.content>span{
+    font-size: 29px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 3px;
+
+}
+.content>sub{
+    font-size: 12px;
+    color: #ff91b2;
+
+}
+.flash_scale_left>p{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin-top: 41px;
+}
+.flash_scale_right>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+   
+}
+.flash_scale_right>li>a:hover img{
+    transform: scale(1.08);
+     transition: 4s;
+
+}
+.right_img{
+    width: 214px;
+    height: 214px;
+    background: #F9FAFE;
+}
+.right_img>img{
+    width: 214px;
+    
+}
+.flash_scale_right>li>a>h5{
+  color: #333;
+  overflow: hidden;
+  margin-top: 15px;
+  height: 25px;
+  line-height: 25px;
+  font-weight: normal;
+}
+.flash_scale_right>li>a>h6{
+    color: #999;
+    font-weight: normal;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+}
+
+.right_price span{
+    font-size: 18px;
+    color: #333;
+}
+#low_price{
+    width: 83px;
+    height: 20px;
+    background: #ff2f2f;
+    float: right;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    padding: 1px 4px;
+    box-sizing: border-box;
+    cursor: default;
+    text-align:center;
+
+}
+#low_price>span{
+    font-size: 14px;
+    color: #fff;
+}
+.flash_scale_right>li>a:hover h5{
+    color: #ff2f2f;
+}
+.flash_scale_right>li>a:hover h6{
+    color: #ff2f2f;
+}
+.flash_scale_right>li>a:hover .right_price>span{
+    color: #ff2f2f;
+}
+
+/* 优势结束 */
+/* 韩式鲜花开始 */
+.kor_folwers{
+    width: 1200px;
+   /*  height: 32px; */
+   /*  background: pink; */
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.kor_folwers a{
+    text-decoration: none;
+}
+.kor_folwers>p>a{
+    font-size: 26px;
+    font-weight: 700;
+    color: #ab0828;
+}
+.kor_folwers>p>span{
+    font-size: 14px;
+   margin-left: 10px;
+    color: #6e6e6e;
+}
+.kor_folwers>a{
+    font-size: 14px;
+    color: #6e6e6e;
+    line-height: ;
+}
+.kor_folwers_list{
+    width: 1200px;
+    height: 655px;
+   /*  background: red; */
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.kor_left{
+    width: 276px;
+    height: 655px;
+   /*  background: pink; */
+}
+.kor_right{
+    width: 915px;
+    height: auto;
+   /*  background: yellow; */
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* justify-content: space-between;
+    align-content: space-between ; */
+
+
+
+}
+
+.kor_left>a>h5{
+    font-size: 26px;
+    color: #ab0828;
+    margin-top: 65px;
+    text-align: center;
+    font-weight: normal;
+
+}
+.kor_left>a>p{
+    width: 116px;
+    height: 32px;
+    font-size: 18px;
+    color: #ab0828;
+    border: 1px solid #7d0022;
+    text-align: center;
+    line-height: 32px;
+    margin: 45px 70px;
+}
+.kor_left>a>p:hover{
+    background:#7d0022 ;
+    color: #fff;
+}
+.kor_left>a{
+    width: 276px;
+    height: 655px;
+    display: block;
+    text-decoration: none;
+}
+.kor_right>li{
+    width: 278px;
+    height: 313px;
+    margin-right: 26px;
+    margin-bottom: 25px;
+    float: left;
+   /*  background: yellowgreen; */
+}
+.kor_right:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.kor_right>li>a{
+    display: block;
+    width: 278px;
+    height: 313px;
+    text-decoration: none;
+}
+.kor_right>li>a>.han_img{
+    width: 278px;
+    height: 244px;
+    background: #f9fafe;
+    margin: 0 auto;
+    text-align: center;
+}
+.kor_right>li>a>.han_img>img{
+    width: 244px;
+}
+.kor_right>li>a:hover img{
+  transform: scale(1.08);
+  transition: 4s;
+}
+.kor_right>li>a>h5{
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 25px 5px 25px;
+    font-weight: normal;
+
+}
+.kor_right>li>a>.hantext_list{
+    display: flex;
+    width: 225px;
+    margin-left: 25px;
+    justify-content: space-between;
+   /*  background: pink; */
+
+}
+.hantext_list>.text_price{
+    font-size: 16px;
+    color: #ff2f2f;
+    line-height: 25px;
+}
+.hanlow_price{
+    width: 45px;
+    height: 18px;
+    background: #b57c5b;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    margin-top: 4px;
+    border-radius: 5px
+}
+.han_sold{
+    font-size: 13px;
+    color: #b57c5b;
+    line-height: 27px
+}
+.kor_right>li>a:hover h5{
+    color: #ff2f2f;
+}
+.kor_right>li>a:hover .han_sold{
+    color: #ff2f2f;
+}
+/* 韩式鲜花结束 */
+/* 创意花盒开始 */
+#color{
+  color:#666666;
+}
+#set_sheet{
+    border-color: #666666;
+    color: #666666;
+    
+}
+#set_sheet:hover{
+    background: #666666;
+    color: #fff;
+}
+/* 创意花盒结束 */
+/* 图片开始 */
+.banner_img{
+    width: 1200px;
+    margin: 50px  auto 0;
+}
+.banner_img>a{
+  display: block;
+}
+/* 图片结束 */
+/* 长辈鲜花开始 */
+#parent_color{
+    color: #08ab60;
+}
+#parent_box{
+    border-color: #08ab60;
+    color: #08ab60;
+}
+#parent_box:hover{
+  background: #08ab60;
+  color: #fff;
+}
+
+/* 长辈鲜花结束 */
+/* 商务鲜花开始 */
+/* 商务鲜花结束 */
+/* 永生花开始 */
+#eternal_color{
+    color: #333;
+}
+#eternal_box{
+    border-color: #333;
+    color: #333;
+}
+#eternal_box:hover{
+  background: #333;
+  color: #fff;
+}
+/* 永生花结束 */
+/* 礼品开始 */
+/* 礼品结束 */
+/* 每周一花开始 */
+.week_flower{
+    width: 1200px;
+    height: 494px;
+    /* background: pink; */
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.week_flower li{
+    width: 278px;
+    height: 494px;
+    /* background: yellow; */
+
+}
+.week_flower li>a>img{
+    max-width: 278px;
+   height: 383px;
+}
+.week_flower li:first-child{
+    width: 276px;
+    background: url('../img/index/week_flower.jpg')
+}
+.week_flower li .week_list{
+    display:block;
+    width: 278px;
+    height: 494px;
+    text-decoration: none;
+}
+.week_flower li .week_list h5{
+    font-size: 36px;
+    color: #fff;
+    margin-top: 85px;
+    text-align: center;
+
+}
+.week_text{
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+    margin: 259px 70px;
+}
+.week_more{
+    font-size: 16px;
+    color: #fff;
+    margin: 195px 55px 20px 55px;
+    border: 2px solid #fff;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.week_more:hover{
+    background: #fff;
+    color: #ff2f2f;
+}
+.week_flower li .week_list h6{
+    font-size: 15px;
+    color: #000;
+    margin-top: 15px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: normal;
+    text-align: left;
+
+}
+.week_flower li .week_list .week_note{
+    font-size: 14px;
+    color: #777;
+    line-height: 25px;
+    margin-top: 5px;
+}
+.week_flower li .week_list .week_price{
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.week_flower li .week_list:hover h6{
+    color: #ff2f2f;
+}
+.week_flower li .week_list:hover .week_note{
+    color: #ff2f2f;
+}
+.week_flower li .week_list:hover .week_price{
+    color: #ff2f2f;
+}
+/* 每周一花结束 */
+/* 用户评论开始 */
+.user_view{
+    width: 1200px;
+    height: 321px;
+    margin: 0 auto;
+    /* background: red; */
+    overflow: hidden;
+}
+.user_view>.user_top{
+    font-size: 26px;
+    color: #333;
+    height: 50px;
+    line-height:50px; 
+    margin-top: 50px;
+   
+}
+.user_list{
+    width: 1170px;
+   /*  background: blue; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 20px #f4f4f4;
+    padding: 40px 30px;
+    box-sizing: border-box;
+}
+.user_li{
+    width: 555px;
+    height: 132px;
+    /* background: pink; */
+    display: flex;
+    justify-content: space-between;
+}
+.user_img{
+    width: 132px;
+    height: 132px;
+    /* background: green; */
+}
+.user_img>img{
+    width: 132px;
+}
+.user_text{
+    width: 403px;
+}
+.user_text>.note{
+    font-size: 16px;
+    height: 90px;
+    line-height: 30px;
+    color: #333;
+}
+.user_text>.viewer{
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
+.user_text>.viewer>.author{
+    color: #333;
+    margin: 0 10px;
+}
+.user_text>.viewer>.date{
+    margin-left: 30px;
+}
+/* 用户评论结束 */
+/* 鲜花人气榜单开始 */
+.moods{
+    width: 1200px;
+    height: 538px;
+    margin: 60px auto 0;
+    /* background: pink; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.moods>.moods_left{
+    width: 595px;
+   /*  background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.moods>.moods_center{
+    width: 294px;
+    /* background:green; */
+}
+.moods>.moods_right{
+    width: 299px;
+   /*  background:yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.moods_left>.moods_ltop{
+   width: 595px;
+   height: 266px;
+   /* background: yellowgreen; */
+   display: flex;
+   justify-content: space-between;
+}
+.moods_in{
+    width: 295px;
+    height: 266px;
+    background:#e1e1e1;
+    
+}
+.moods_in>a{
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    overflow: hidden;
+}
+#moods_flower1{
+ background: url('../img/index/moods_1.jpg') no-repeat center;
+}
+#moods_flower3{
+   background: url('../img/index/moods_3.jpg') no-repeat center; 
+}
+#moods_flower4{
+  background: url('../img/index/moods_4.jpg') no-repeat center;   
+}
+#moods_flower1>a>h5{
+    font-size: 24px;
+    color: #fff;
+    margin-top: 90px;
+    text-align: center
+}
+#moods_flower1>a>h6{
+    font-size: 16px;
+    color: #e9e9e9;
+    text-align: center;
+    font-weight: normal;
+    line-height: 30px;
+
+}
+#moods_flower3>a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+#moods_flower3>a>h5{
+    font-size: 45px;
+    color: #fff;
+    text-align: right;
+    margin: 55px 40px 0 0;
+}
+#moods_flower3>a>h6{
+    font-size: 24px;
+    color: #e0e0e0;
+    text-align: right;
+    margin: 5px 40px 0 0;
+    font-family: Arial;
+    font-weight: normal;
+}
+#moods_flower3>a>p{
+    font-size: 18px;
+    color: #e9e9e9;
+    text-align: right;
+    margin: 25px 40px 0 0;
+   
+}
+#moods_flower2>a>.moods_img{
+    width: 190px;
+    height: 190px;
+   /*  background: red; */
+    margin: 0 auto;
+}
+#moods_flower2>a>.moods_img>img{
+    width: 190px;
+    text-align: center;
+}
+#moods_flower2>a>h5{
+    font-size: 14px;
+    color: #333;
+    margin: 5px 15px 0 15px;
+    text-align: center;
+    line-height: 25px;
+    overflow: hidden;
+    height: 25px;
+}
+#moods_flower2>a>p{
+    line-height: 30px;
+    font-size: 16px;
+    color: #0b0b0b;
+    text-align: center;
+}
+#moods_flower2>a>p>span{
+    margin-left: 2px;
+}
+
+.moods_flower5{
+    background: url('../img/index/moods_5.jpg') no-repeat center !important;
+}
+#life{
+    margin-top: 5px;
+}
+
+#moods_flower4>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-decoration: none;
+}
+#moods_flower4>a>h5{
+    font-size: 48px;
+    color: #fff;
+    margin-top: 87px;
+    text-align: center;
+}
+#moods_flower4>a>.moods_box{
+    height: 90px;
+    font-size: 60px;
+    text-align: center;
+    margin: 45px 28px 50px 28px;
+    border: 10px solid #fff;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 90px;
+    color: #fff;
+}
+#moods_flower4>a>.moods_content{
+    height: 35px;
+    line-height: 35px;
+    margin: 154px 85px 20px 85px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;  
+}
+#moods_flower4>a>.moods_content:hover{
+    background: #fff;
+    color: #ff2f2f;
+}
+/* 鲜花人气榜单结束 */
+/* 感动时刻开始 */
+.moment{
+    width: 1200px;
+    height: 750px;
+    margin: 60px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.moment_left{
+    width: 585px;
+    height: 100%;
+    
+}
+.libar{
+    width: 100%;
+    height: 50px;
+   
+}
+.libar>h3>a{
+    color: #333;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 39px;
+    float: left;
+}
+.libar>h3>a:hover{
+    color: red;
+}
+.libar>p{
+    float: right;
+    margin-top: 14px;
+
+}
+.libar>p>a{
+    font-size: 14px;
+    color: #6e6e6e;
+    text-decoration: none;
+    
+}
+.moment_left>.moment_list{
+    width: 100%;
+    height: 640px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.moment_left>.moment_list>li{
+   width: 100%;
+   height: 145px;
+
+}
+.moment_img{
+    width: 176px;
+    height: 121px;
+    float: left;
+
+}
+
+.moment_img>a>img{
+    width: 176px;
+    height: 121px;
+
+}
+.moment_text{
+    width: 380px;
+    color: #333;
+    margin-left: 20px;
+    float: left;
+   
+
+}
+.moment_text>h5>a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: normal;
+    color: #333;
+}
+.moment_text>h5>a:hover{
+    color: #ff2f2f;
+}
+.moment_text>p{
+    font-size: 14px;
+    color: #777;
+    height: 50px;
+    overflow: hidden;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.moment_text>.moment_more{
+    margin-top: 10px;
+}
+.moment_text>.moment_more>a{
+  font-size: 12px;
+  text-decoration: none;
+  color: #333;
+}
+.moment_text>.moment_more>a:hover{
+   color: #ff2f2f;  
+}
+/* 感动时刻结束 */
+
+/* 固定导航栏开始 */
+.fixed{
+    width: 46px;
+    height: 226px;
+    box-shadow: 0 0 20px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    right: 50px;
+    bottom: 60px;
+    z-index: 999;
+
+}
+.fixed>li{
+    width: 100%;
+    height: 46px;
+   /*  background: pink; */
+
+}
+.fixed>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+.fixed>li>a>.icon-rside{
+    width: 24px;
+    height: 24px;
+    margin: 11px;
+    vertical-align: middle;
+    display: inline-block;
+    background:url("../img/index/fixed_img.png") no-repeat -246px 0;
+  
+}
+.fixed>li>a>.icon-rside2{
+    background:url("../img/index/fixed_img.png") no-repeat -246px -32px;
+}
+.fixed>li>a>.icon-rside3{
+    background:url("../img/index/fixed_img.png") no-repeat -246px -64px;
+}
+.fixed>li>a>.icon-rside4{
+    background:url("../img/index/fixed_img.png") no-repeat  -246px -96px;
+}
+.fixed>li>a>.icon-rside5{
+    background:url("../img/index/fixed_img.png") no-repeat -246px -125px;
+}
+/* 固定导航栏结束 */
+.menu{
+    width: 306px;
+    height: 471px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 352px;
+    z-index: 10;
+}
+.menu-item{
+   padding:  25px 35px 9px 50px;
+}
+.menu-item>p{
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+}
+
+.menu-item>ul{
+    height: 72px;
+    overflow: hidden;
+}
+.menu-item>ul>li{
+    height: 28px;
+    line-height: 24px;
+    font-size: 14px;
+    margin-right: 15px;
+    float: left;
+    
+}
+.menu-item>ul>li>a{
+    color: #777;
+    text-decoration: none;
+}
+.menu-item>ul>li>a:hover{
+  color: #ff2f2f;
+}
+.menu-item:hover p{
+    color: #ff2f2f;
+}
+.menu-item>.item-list1{
+    height:48px;
+}
+.menu-item>.item-list2{
+    height:24px;
+}

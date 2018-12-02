@@ -1,0 +1,108 @@
+/*
+* @Author: web
+* @Date:   2018-10-20 17:38:42
+* @Last Modified by:   web
+* @Last Modified time: 2018-11-01 20:12:53
+*/
+/* 底部开始 */
+.footer{
+    width: 100%;
+   background:#f6f6f6;
+   margin-top:50px;
+}
+.server{
+    width: 1200px;
+    height: 86px;
+    margin: 0 auto;
+    border-bottom: 1px solid #d3d3d3;
+
+
+}
+.server>ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px
+}
+.server>ul>li{
+    width: 150px;
+    height: 100%;
+}
+.server>ul>li>span{
+    line-height: 86px;
+
+}
+.server>ul>li>span>a{
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+.server>ul>li>span>a:hover{
+    color: #ff2f2f;
+
+}
+.server>ul>li>.server_img{
+    width: 28px;
+    height: 28px;
+    background: url('../img/icon.png') no-repeat 0 -56px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 25px
+}
+#server_img2{
+    background: url('../img/icon.png') no-repeat -28px -56px; 
+}
+#server_img3{
+    background: url('../img/icon.png') no-repeat -56px -56px; 
+}
+#server_img4{
+    background: url('../img/icon.png') no-repeat -84px -56px; 
+}
+#server_img5{
+    background: url('../img/icon.png') no-repeat -112px -56px; 
+}
+#server_img6{
+    background: url('../img/icon.png') no-repeat -140px -56px; 
+}
+#server_img7{
+    background: url('../img/icon.png') no-repeat -168px -56px; 
+}
+.footer>.footer_text{
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+    line-height: 24px;
+    margin-top: 30px;
+}
+.footer_img{
+    width: 292px;
+    height: 30px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer_img>li{
+    width: 83px;
+    height: 100%;
+    
+}
+.footer_img>li>a{
+    width: 83px;
+    height: 100%;
+    display: block;
+   
+}
+#footer_img1{
+    background: url('../img/index/footer_img.png') no-repeat 0 0;
+}
+#footer_img2{
+    background: url('../img/index/footer_img.png') no-repeat 0 -30px;
+}
+#footer_img3{
+    background: url('../img/index/footer_img.png') no-repeat 0 -60px;
+}
+/* 底部结束 */
